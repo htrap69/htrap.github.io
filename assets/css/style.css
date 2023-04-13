@@ -103,7 +103,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #000000;
 }
 
 .overlay-mf {
@@ -231,12 +231,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #000000;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #0c0c0c;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -537,7 +537,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #0078ff;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -827,9 +827,9 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-mf {
- background-color: #000000;
-}
+/* .about-mf {
+ background-color: #0c0c0c;
+} */
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -870,6 +870,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -1480,3 +1481,16 @@ footer .credits a {
 
 /*--------------------------------------------------------------
 */
+.services-mf {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url(../img/flipped.jpg);
+}
+  
+.title-a h2
+{
+  color: #fff;
+}
+/* .portfolio-mf {
+  background-color: #0c0c0c;
+   */
